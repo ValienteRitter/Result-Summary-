@@ -1,4 +1,13 @@
+@font-face {
+  font-family: 'HankenGrotesk';
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
+    font-family: "HankenGrotesk";
     box-sizing: border-box;
 }
 
@@ -38,8 +47,8 @@ body {
 
 #summary {
     display: flex;
-    height: 50vh;
-    width: 70vh;
+    height: 25rem;
+    width: 60rem;
     background-color: white;
     
 }
@@ -58,7 +67,7 @@ body {
     justify-content: space-between;     
     align-items: center;    
     height: 3rem;
-    width: 10rem;
+    width: 20rem;
     border-radius: 3rem;
     background-color: red;
     margin-bottom: 1rem;
@@ -80,7 +89,7 @@ body {
     color: hsl(0, 100%, 67%);
 }
 
-#reaction::before {
+#reaction > p::before {
     content: "";
     display: inline-block;
     height: 1rem;
@@ -96,7 +105,7 @@ body {
     color: hsl(39, 100%, 56%);
 }
 
-#memory::before {
+#memory > p::before {
     content: "";
     display: inline-block;
     height: 1rem;
@@ -111,7 +120,7 @@ body {
     color: hsl(166, 100%, 37%);
 }
 
-#verbal::before {
+#verbal > p::before {
     content: "";
     display: inline-block;
     height: 1rem;
@@ -126,7 +135,7 @@ body {
     color: hsl(234, 85%, 45%);
 }
 
-#visual::before {
+#visual > p::before {
     content: "";
     display: inline-block;
     height: 1rem;
