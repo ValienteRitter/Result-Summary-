@@ -40,6 +40,56 @@ body {
     
 }
 
+#summary-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.summary-element {
+    display: flex;
+    justify-content: start;    
+    align-items: center;    
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3rem;
+    background-color: red;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+#reaction {
+    background-color: #ffd5d5;
+    color: hsl(0, 100%, 67%);
+}
+
+#memory {
+    background-color: #fcffd5;
+    color: hsl(39, 100%, 56%);
+}
+
+#verbal {
+    background-color: #d5ffd9;
+    color: hsl(166, 100%, 37%);
+}
+
+#visual {
+    background-color: #d5fbff;
+    color: hsl(234, 85%, 45%);
+}
+
+#continue-button > button {
+    height: 3rem;
+    width: 10rem;
+    border-radius: 3rem;
+    border: none;
+    background-color: #380080;
+    color: white;
+}
+
 #result-circle {
     display: flex;
     flex-direction: column;
