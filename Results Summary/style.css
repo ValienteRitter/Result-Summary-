@@ -1,6 +1,7 @@
 html,body {
     height: 100%;
     margin: 0;
+    background-color: aquamarine;
 }
 
 body {
@@ -10,9 +11,27 @@ body {
 }
 
 #container {
-    display: inline;
+    display: flex;
     background-color: red;
     height: 50vh;
-    width: 50vh;
+    width: 70vh;
 }
 
+#container, #result, #summary {
+    border-radius: 1rem;
+
+}
+
+#result, #summary {
+    width: 50%;
+    height: 100%;
+}
+
+#result {
+    background-color: blue;
+}
+
+#summary {
+    background-color: white;
+    
+}
